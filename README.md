@@ -20,6 +20,7 @@ Tu veux inviter le bot sur ton serveur ? <a href="https://lc.cx/mEGL">Lien d'inv
 
 <h2>À venir</h2>
 -----------------
+
 *Voici ce qui devrait arriver prochainement sur le bot*
 
 <ol>
