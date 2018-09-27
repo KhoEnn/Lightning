@@ -10,7 +10,7 @@ exports.run = (client, message, args) => {
             .setColor('7EBCAD')
             .setTitle('Commandes du bot')
             .setDescription('Rappel : Les caractères tels que [], {} ou <> ne doivent pas être utilisés lors de l\'exécution de votre commande. \nNote : Vous pouvez aussi faire `&help {commande}` pour avoir plus d\'informations sur celle-ci.\n\n')
-            .addField('\n\nModération :', "`kick` `ban` `purge` `warns` `lockdown` `say`")
+            .addField('\n\nModération :', "`kick` `ban` `purge` `warns` `lockdown` `say` `prefix`")
             .addField('\n\nUtilitaires :', "`help` `avatar` `id` `serverinfo` `channelinfo` `userinfo` `report` `update`  `emoji` `date` `info` `membercount` ")
             .addField('\n\nFun :', "`ping` `say` `tableflip` `meme` `suicide` `8ball` `roll` `autisme` `bienvenue` `math`")
             .setThumbnail('https://cdn.discordapp.com/avatars/439715373223378944/7c291c50bb3a7f94845611001dfca7e8.png?size=2048')
@@ -58,6 +58,19 @@ else {
                     .setFooter(client.user.username, client.user.avatarURL)
                 message.channel.send(kickembd)
             }
+            else {
+                if(args[0] === "kick") {
+                    let kickembd = new Discord.RichEmbed()
+                        .setColor('7EBCAD')
+                        .setTitle('Commande : cookie')
+                        .addField('Description de la commande', 'Envois un cookie à une personne.')
+                        .addField('Rappel', "Les caractères tels que [], {} ou <> ne doivent pas être utilisés lors de l'exécution de votre commande.")
+                        .addField('Utilisation', "`&cookie {utilisateur}")
+                        .setTimestamp(new Date)
+                        .setThumbnail(client.user.avatarURL)
+                        .setFooter(client.user.username, client.user.avatarURL)
+                    message.channel.send(kickembd)
+                }
             if(args[0] === "membercount") {
                 let purgeembd = new Discord.RichEmbed()
                     .setColor(embedcolor)
@@ -396,7 +409,7 @@ else {
 
 
 
-                                                                                                            }}}}}}}}}}}}}}}}}}}}}}}}
+                                                                                                            }}}}}}}}}}}}}}}}}}}}}}}}}
 }                                                                                                                
 }
 exports.help = {
