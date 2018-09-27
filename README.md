@@ -14,7 +14,6 @@ Un bot multifonction en plein **développement** par Activity#6823.
 <li>Des commandes fun & hd</li>
 <li>Des commandes d'informations.</li>
 </ol>
-Tu veux inviter le bot sur ton serveur ? <a href="https://lc.cx/mEGL">Lien d'invitation</a> 
 
 -----------------
 
@@ -30,3 +29,13 @@ Tu veux inviter le bot sur ton serveur ? <a href="https://lc.cx/mEGL">Lien d'inv
   <li>L'hébergement h24/7j7</li>
 </ol>
 
+Qu'attends-tu pour ajouter le bot ? Bah oui le lien !
+Tu veux inviter le bot sur ton serveur ? <a href="https://lc.cx/mEGL">Lien d'invitation</a> 
+
+Voici un code en C :
+
+    int main()
+    {
+        printf("Hello world!\n");
+        return 0;
+    }
