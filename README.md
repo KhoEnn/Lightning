@@ -18,7 +18,7 @@ Un bot multifonction en plein **développement** par Activity#6823.
 -----------------
 
 <h2>À venir</h2>
------------------
+
 
 *Voici ce qui devrait arriver prochainement sur le bot*
 
@@ -32,6 +32,6 @@ Un bot multifonction en plein **développement** par Activity#6823.
 Qu'attends-tu pour ajouter le bot ? Bah oui le lien !
 Tu veux inviter le bot sur ton serveur ? <a href="https://lc.cx/mEGL">Lien d'invitation</a> 
 
-        `By Activity#6823`
+       *By ` Activity#6823`for public* 
    
     
