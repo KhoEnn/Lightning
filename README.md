@@ -32,10 +32,6 @@ Un bot multifonction en plein **développement** par Activity#6823.
 Qu'attends-tu pour ajouter le bot ? Bah oui le lien !
 Tu veux inviter le bot sur ton serveur ? <a href="https://lc.cx/mEGL">Lien d'invitation</a> 
 
-Voici un code en C :
-
-    int main()
-    {
-        printf("Hello world!\n");
-        return 0;
-    }
+        ("By Activity#6823");
+   
+    
