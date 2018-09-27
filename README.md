@@ -1,0 +1,2 @@
+# Lightning
+Premier  bot discord
